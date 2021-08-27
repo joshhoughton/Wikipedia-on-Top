@@ -14,22 +14,22 @@
   </p>
   
   
-📦wot
- ┣ 📂icons
- ┃ ┣ 📜icon128.png
- ┃ ┣ 📜icon16.png
- ┃ ┗ 📜icon48.png
- ┣ 📂js
- ┃ ┗ 📂jquery
- ┃ ┃ ┣ 📜jquery.min.js
- ┃ ┃ ┗ 📜package.json
- ┣ 📂src
- ┃ ┣ 📂bg
- ┃ ┃ ┗ 📜background.js
- ┃ ┣ 📂inject
- ┃ ┃ ┗ 📜inject.js
- ┃ ┗ 📜.DS_Store
- ┣ 📂_locales
- ┃ ┗ 📂en
- ┃ ┃ ┗ 📜messages.json
- ┗ 📜manifest.json
+    📦wot
+    ┣ 📂icons
+    ┃ ┣ 📜icon128.png
+    ┃ ┣ 📜icon16.png
+    ┃ ┗ 📜icon48.png
+    ┣ 📂js
+    ┃ ┗ 📂jquery
+    ┃ ┃ ┣ 📜jquery.min.js
+    ┃ ┃ ┗ 📜package.json
+    ┣ 📂src
+    ┃ ┣ 📂bg
+    ┃ ┃ ┗ 📜background.js
+    ┃ ┣ 📂inject
+    ┃ ┃ ┗ 📜inject.js
+    ┃ ┗ 📜.DS_Store
+    ┣ 📂_locales
+    ┃ ┗ 📂en
+    ┃ ┃ ┗ 📜messages.json
+    ┗ 📜manifest.json
