@@ -7,7 +7,7 @@
 
   <p align="center">
     <br />
-    <a href="https://chrome.google.com/webstore/detail/venom-hotkey-bookmarker-f/nlcikdibmohlofehpflokeedegjlmnmh"><strong>Install »</strong></a>
+    <a href="https://chrome.google.com/webstore/detail/wikipedia-on-top/fagbaeppakjohihhfadhdjddmpgofegj"><strong>Install »</strong></a>
     <br />
     <br />
 
