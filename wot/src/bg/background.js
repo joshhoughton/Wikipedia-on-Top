@@ -4,9 +4,8 @@
 //     "sample_setting": "This is how you use Store.js to remember values"
 // });
 
-
 //example of using a message handler from the inject scripts
-chrome.tabs.onUpdated.addListener( function (tabId, changeInfo, tab) {
-    if (changeInfo.status == 'complete') {
-    }
-  })
+chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
+  if (changeInfo.status == "complete") {
+  }
+});

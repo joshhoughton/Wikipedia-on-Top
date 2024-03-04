@@ -1,26 +1,22 @@
 {
-    "name": "Wikipedia on Top",
-    "version": "0.1.0",
-    "manifest_version": 3,
-    "description": "Wikipedia on Top ensures that your first Google result is always Wikipedia where possible.",
-    "default_locale": "en",  // Add this line
-    "icons": {
-      "16": "icons/icon16.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
-    },
-    "background": {
-      "service_worker": "src/bg/background.js"
-    },
-    "permissions": ["activeTab", "scripting"],
-    "content_scripts": [
-      {
-        "matches": [
-          "https://www.google.com/search*"
-        ],
-        "js": [
-          "src/inject/inject.js"
-        ]
-      }
-    ]
+  "name": "Wikipedia on Top",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "description": "Wikipedia on Top ensures that your first Google result is always Wikipedia where possible.",
+  "default_locale": "en", // Add this line
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "src/bg/background.js"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/search*"],
+      "js": ["src/inject/inject.js"]
+    }
+  ]
 }
