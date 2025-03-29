@@ -1,6 +1,6 @@
 {
   "name": "Wikipedia on Top",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "manifest_version": 3,
   "description": "Wikipedia on Top ensures that your first Google result is always Wikipedia where possible.",
   "default_locale": "en",
@@ -12,10 +12,12 @@
   "background": {
     "service_worker": "src/bg/background.js"
   },
-  "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {
-      "matches": ["https://www.google.com/search*"],
+      "matches": [
+        "https://www.google.com/search*",
+        "https://www.google.co.uk/search*"
+    ],
       "js": ["src/inject/inject.js"]
     }
   ]
